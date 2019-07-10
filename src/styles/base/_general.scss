@@ -1,12 +1,38 @@
-h1, h2, h3, h4, h5, h6, ul {
+html,
+body {
     margin: 0;
     padding: 0;
 }
+.course {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: $text-color;
+    font-family: 'Gentona', sans-serif;
 
-.container {
-    @include container();
-    @include sm(max-width, rem(510));
-    @include md(max-width, rem(690));
-    @include lg(max-width, rem(930));
-    @include xl(max-width, rem(1110));
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+        color: $title-color;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        @include container();
+        @include sm(max-width, rem(576));
+        @include md(max-width, rem(768));
+        @include lg(max-width, rem(992));
+        @include xl(max-width, rem(1140));
+    }
+
+    a {
+        color: $link-color;
+        text-decoration: underline;
+    }
 }
+

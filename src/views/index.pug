@@ -2,10 +2,13 @@ extends layouts/default
 include helpers/mixins
 
 block variables
-	- const title = "gulp-pug-starter"
+	- const title = "Course"
 
 block content
-
+	.course
+		include ../blocks/modules/course-title/course-title
+		include ../blocks/modules/course-about/course-about
+		include ../blocks/modules/course-info/course-info
 block scripts
 	script(src="../js/main.js")
 	script(src="../js/vendor.js")

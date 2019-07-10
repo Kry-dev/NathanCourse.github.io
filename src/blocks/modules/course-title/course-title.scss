@@ -1,0 +1,13 @@
+.course {
+    &-title {
+        background-color: $grey-bg;
+        &-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        &__text {
+            font-size: rem(26);
+        }
+    }
+}

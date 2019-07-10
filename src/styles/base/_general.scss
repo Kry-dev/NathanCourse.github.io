@@ -31,6 +31,13 @@ body {
         @include xl(max-width, rem(1040));
     }
 
+    .course-second__title {
+        @include md(text-align, left);
+        @include sm(text-align, center);
+        font-size: rem(18);
+        padding: rem(20) 0;
+    }
+
     a {
         color: $link-color;
         text-decoration: underline;
@@ -56,6 +63,9 @@ body {
             background-color: $btn-hover-bg;
             transition: $transition;
         }
+    }
+    .mb-20 {
+        margin-bottom: rem(20);
     }
 }
 

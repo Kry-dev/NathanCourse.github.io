@@ -1,0 +1,51 @@
+.course {
+    &-info {
+        &-list {
+            @include md(justify-content, flex-start);
+            @include row-flex();
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style: none;
+            width: 100%;
+            .course-info-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                text-decoration: none;
+                &__ic {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    background: $btn-hover-bg;
+                    color: $white;
+                    margin-bottom: rem(15);
+                    .fa {
+                        font-size: rem(30);
+                    }
+                }
+                &__text {
+                    color: $text-color;
+                }
+                &:hover, &:focus {
+                    .course-info-item__ic {
+                        background: $btn-bg;
+                        transition: $transition;
+                    }
+                }
+            }
+            & > li {
+                @include col();
+                @include size-lg(2);
+                @include size-md(3);
+                @include size-sm(6);
+                @include sm(margin-bottom, 40px);
+            }
+        }
+    }
+}

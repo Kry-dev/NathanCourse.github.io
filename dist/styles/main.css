@@ -163,7 +163,6 @@ body {
   align-items: center;
   justify-content: center;
   width: 50%;
-  padding: 0 1.5625rem;
 }
 
 .course-about-speakers .speaker .speaker-descr {
@@ -192,6 +191,12 @@ body {
 .course-about-speakers .speaker-img img {
   width: 100%;
   height: 100%;
+}
+
+.course-about-speakers .speaker p,
+.course-about-speakers .speaker p small {
+  width: 100%;
+  text-align: center;
 }
 
 .course-info-list {
@@ -318,6 +323,10 @@ body {
     justify-content: flex-start;
   }
 
+  .course-about-speakers .speaker {
+    padding: 0 1.5625rem;
+  }
+
   .course-about-speakers .speaker .speaker-descr {
     align-items: flex-start;
   }
@@ -328,6 +337,11 @@ body {
 
   .course-about-speakers .speaker-img {
     display: flex;
+  }
+
+  .course-about-speakers .speaker p,
+  .course-about-speakers .speaker p small {
+    text-align: left;
   }
 
   .course-info-list {

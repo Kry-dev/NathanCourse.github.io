@@ -4,7 +4,8 @@
         padding: rem(30) 0;
         &__text {
             font-size: rem(29);
-            white-space: nowrap;
+            text-align: center;
+            line-height: 1.2;
         }
         &-box {
             @include lg(justify-content, space-between);

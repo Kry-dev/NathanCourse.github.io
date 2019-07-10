@@ -17,7 +17,8 @@ body {
         color: $title-color;
     }
 
-    ul {
+    ul,
+    p {
         margin: 0;
         padding: 0;
     }
@@ -27,7 +28,7 @@ body {
         @include sm(max-width, rem(576));
         @include md(max-width, rem(768));
         @include lg(max-width, rem(992));
-        @include xl(max-width, rem(1140));
+        @include xl(max-width, rem(1040));
     }
 
     a {
@@ -36,6 +37,8 @@ body {
         &:hover,
         &:focus {
             cursor: pointer;
+            color: $link-hover-color;
+            transition: $transition;
         }
     }
     a.btn,
@@ -50,7 +53,7 @@ body {
         &:hover,
         &:focus {
             cursor: pointer;
-            background-color: $main-color;
+            background-color: $btn-hover-bg;
             transition: $transition;
         }
     }

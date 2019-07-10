@@ -1,10 +1,12 @@
 $main-color: #00aa8f;
 $link-color: $main-color;
+$link-hover-color: #003c4e;
 $grey-bg: #f8f8f8;
 $white: #fff;
 $white-bg: $white;
-$btn-bg: #003c4e;
+$btn-bg: $link-hover-color;
+$btn-hover-bg: $link-color;
 $title-color: #000;
 $text-color: #7a7a7a;
-$border-radius: 3px;
+$border-radius: 5px;
 $transition: all .3s ease;

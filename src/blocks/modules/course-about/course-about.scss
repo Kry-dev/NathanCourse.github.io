@@ -2,14 +2,66 @@
     &-about {
         background-color: $grey-bg;
         margin-bottom: rem(20);
+        padding-bottom: rem(30);
         &-box {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
+            margin-bottom: rem(20);
         }
-        &__title {
-            font-size: rem(16);
+        .course-about__title {
+            font-size: rem(18);
+            padding: rem(20) 0;
+            margin-bottom: rem(20);
             text-align: left;
+        }
+        .course-about__descr {
+            font-size: rem(16);
+            line-height: rem(21);
+            color: $text-color;
+        }
+        &-speakers {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: rem(20) 0 rem(20);
+            .speaker {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                width: 50%;
+                padding: 0 rem(25);
+                &-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100px;
+                    height: 100px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    margin-right: rem(30);
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                &-descr {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    min-height: 100px;
+                }
+                .speaker-descr-name {
+                    font-size: 22px;
+                    margin-bottom: rem(16);
+                }
+                .speaker-descr-status, .speaker-descr-place {
+                    font-size: 14px;
+                    color: $text-color;
+                    margin-bottom: rem(10);
+                }
+            }
         }
     }
 }

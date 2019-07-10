@@ -2,14 +2,24 @@
     &-title {
         background-color: $grey-bg;
         padding: rem(30) 0;
-        &-box {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-        }
         &__text {
-            font-size: rem(26);
+            @include md(font-size, 26px);
+            font-size: rem(16);
+            white-space: nowrap;
+        }
+        &-box {
+            @include md(justify-content, space-between);
+            @include sm(flex-direction, row);
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: rem(16);
+            .btn {
+                @include sm(margin, 0 0 0 rem(15));
+                margin: rem(15) 0 0 0;
+            }
         }
     }
 }

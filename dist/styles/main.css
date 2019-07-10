@@ -47,7 +47,8 @@ body {
 }
 
 .course .course-second__title {
-  font-size: 1.125rem;
+  text-align: center;
+  font-size: 1pxrem;
   padding: 1.25rem 0;
 }
 
@@ -68,10 +69,11 @@ body {
   text-decoration: none;
   color: #fff;
   background: #003c4e;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
   border-radius: 5px;
   padding: 0.9375rem 1.875rem;
+  white-space: nowrap;
 }
 
 .course a.btn:hover,
@@ -121,7 +123,8 @@ body {
 }
 
 .course-about-speakers .speaker .speaker-descr-name {
-  font-size: 22px;
+  text-align: center;
+  font-size: 16px;
   margin-bottom: 1rem;
 }
 
@@ -208,6 +211,8 @@ body {
   word-wrap: break-word;
   margin-left: 0.9375rem;
   margin-right: 0.9375rem;
+  width: calc(50% - 1.875rem);
+  margin-bottom: 2.5rem;
 }
 
 .course-title {
@@ -215,15 +220,21 @@ body {
   padding: 1.875rem 0;
 }
 
-.course-title-box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+.course-title__text {
+  font-size: 1rem;
+  white-space: nowrap;
 }
 
-.course-title__text {
-  font-size: 1.625rem;
+.course-title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.course-title-box .btn {
+  margin: 0.9375rem 0 0 0;
 }
 
 @media screen and (min-width: 36rem) {
@@ -231,20 +242,20 @@ body {
     max-width: 36rem;
   }
 
-  .course .course-second__title {
-    text-align: center;
-  }
-
   .course-about-speakers {
     justify-content: center;
   }
 
   .course-info-list > li {
-    width: calc(50% - 1.875rem);
+    margin-bottom: 20px;
   }
 
-  .course-info-list > li {
-    margin-bottom: 40px;
+  .course-title-box {
+    flex-direction: row;
+  }
+
+  .course-title-box .btn {
+    margin: 0 0 0 0.9375rem;
   }
 }
 
@@ -257,8 +268,30 @@ body {
     text-align: left;
   }
 
+  .course .course-second__title {
+    font-size: 18px;
+  }
+
+  .course a.btn,
+  .course .btn {
+    font-size: 16px;
+  }
+
+  .course a.btn,
+  .course .btn {
+    line-height: 16px;
+  }
+
   .course-about-speakers .speaker {
     justify-content: flex-start;
+  }
+
+  .course-about-speakers .speaker .speaker-descr-name {
+    text-align: left;
+  }
+
+  .course-about-speakers .speaker .speaker-descr-name {
+    font-size: 22px;
   }
 
   .course-about-speakers .speaker .speaker-descr-status,
@@ -276,6 +309,14 @@ body {
 
   .course-info-list > li {
     width: calc(25% - 1.875rem);
+  }
+
+  .course-title__text {
+    font-size: 26px;
+  }
+
+  .course-title-box {
+    justify-content: space-between;
   }
 }
 

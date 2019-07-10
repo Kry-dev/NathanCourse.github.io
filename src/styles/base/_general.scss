@@ -33,8 +33,9 @@ body {
 
     .course-second__title {
         @include md(text-align, left);
-        @include sm(text-align, center);
-        font-size: rem(18);
+        @include md(font-size, 18px);
+        text-align: center;
+        font-size: rem(16px);
         padding: rem(20) 0;
     }
 
@@ -53,10 +54,13 @@ body {
         text-decoration: none;
         color: $white;
         background: $btn-bg;
-        font-size: rem(16);
-        line-height: rem(16);
+        @include md(font-size, 16px);
+        @include md(line-height, 16px);
+        font-size: rem(12);
+        line-height: rem(12);
         border-radius: $border-radius;
         padding: rem(15) rem(30);
+        white-space: nowrap;
         &:hover,
         &:focus {
             cursor: pointer;

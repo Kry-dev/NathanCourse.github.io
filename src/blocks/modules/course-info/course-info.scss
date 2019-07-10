@@ -41,10 +41,11 @@
             }
             & > li {
                 @include col();
-                @include size-lg(2);
+                @include size(6);
                 @include size-md(3);
-                @include size-sm(6);
-                @include sm(margin-bottom, 40px);
+                @include size-lg(2);
+                @include sm(margin-bottom, 20px);
+                margin-bottom: rem(40);
             }
         }
     }

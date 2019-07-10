@@ -1,6 +1,7 @@
 .course {
     &-title {
         background-color: $grey-bg;
+        padding: rem(30) 0;
         &-box {
             display: flex;
             flex-direction: row;

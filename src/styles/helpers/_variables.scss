@@ -1,7 +1,10 @@
 $main-color: #00aa8f;
 $link-color: $main-color;
 $grey-bg: #f8f8f8;
-$white-bg: #fff;
+$white: #fff;
+$white-bg: $white;
 $btn-bg: #003c4e;
 $title-color: #000;
 $text-color: #7a7a7a;
+$border-radius: 3px;
+$transition: all .3s ease;

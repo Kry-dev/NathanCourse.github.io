@@ -86,28 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/blocks/modules/footer/footer.js":
-/*!*********************************************!*\
-  !*** ./src/blocks/modules/footer/footer.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/blocks/modules/header/header.js":
-/*!*********************************************!*\
-  !*** ./src/blocks/modules/header/header.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./src/js/import/components.js":
 /*!*************************************!*\
   !*** ./src/js/import/components.js ***!
@@ -123,15 +101,8 @@
 /*!**********************************!*\
   !*** ./src/js/import/modules.js ***!
   \**********************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_header_header_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! %modules%/header/header.js */ "./src/blocks/modules/header/header.js");
-/* harmony import */ var _modules_header_header_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_header_header_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _modules_footer_footer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! %modules%/footer/footer.js */ "./src/blocks/modules/footer/footer.js");
-/* harmony import */ var _modules_footer_footer_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_footer_footer_js__WEBPACK_IMPORTED_MODULE_1__);
+/*! no static exports found */
+/***/ (function(module, exports) {
 
 
 
@@ -147,6 +118,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _import_modules_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./import/modules.js */ "./src/js/import/modules.js");
+/* harmony import */ var _import_modules_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_import_modules_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _import_components_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./import/components.js */ "./src/js/import/components.js");
 /* harmony import */ var _import_components_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_import_components_js__WEBPACK_IMPORTED_MODULE_1__);
 

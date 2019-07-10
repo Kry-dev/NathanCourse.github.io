@@ -37,6 +37,9 @@
                         background: $btn-bg;
                         transition: $transition;
                     }
+                    .course-info-item__text {
+                        color: $link-color;
+                    }
                 }
             }
             & > li {

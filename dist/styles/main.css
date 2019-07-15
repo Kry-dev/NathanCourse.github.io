@@ -94,7 +94,7 @@ body {
 .course .btn:hover,
 .course .btn:focus {
   cursor: pointer;
-  background-color: #0072ce;
+  background-color: #002D72;
   transition: all 0.3s ease;
 }
 

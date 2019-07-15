@@ -1,4 +1,4 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css";
 
 @font-face {
   font-family: "Gentona";
@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  color: #7a7a7a;
+  color: #727272;
   font-family: "Gentona", sans-serif;
   font-size: 17px;
   line-height: 1.5rem;
@@ -44,7 +44,7 @@ body {
 
 .course .course-second__title a:hover,
 .course .course-second__title a:focus {
-  color: #00aa8f;
+  color: #0072ce;
 }
 
 .course h1,
@@ -65,7 +65,7 @@ body {
 }
 
 .course a {
-  color: #00aa8f;
+  color: #0072ce;
   text-decoration: underline;
 }
 
@@ -94,7 +94,7 @@ body {
 .course .btn:hover,
 .course .btn:focus {
   cursor: pointer;
-  background-color: #00aa8f;
+  background-color: #0072ce;
   transition: all 0.3s ease;
 }
 
@@ -128,7 +128,7 @@ body {
 .course .read-more-trigger {
   cursor: pointer;
   display: inline-block;
-  color: #00ab8e;
+  color: #0072ce;
   font-size: 1.0625rem;
   line-height: 2;
 }
@@ -141,7 +141,7 @@ body {
 .course-about .course-about__descr {
   font-size: 1rem;
   line-height: 1.3125rem;
-  color: #7a7a7a;
+  color: #727272;
 }
 
 .course-about-box {
@@ -227,17 +227,18 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: #00aa8f;
+  background: #0072ce;
   color: #fff;
   margin-bottom: 0.9375rem;
 }
 
-.course-info-list .course-info-item__ic .fa {
+.course-info-list .course-info-item__ic .fa,
+.course-info-list .course-info-item__ic .fas {
   font-size: 1.875rem;
 }
 
 .course-info-list .course-info-item__text {
-  color: #7a7a7a;
+  color: #727272;
 }
 
 .course-info-list .course-info-item:hover .course-info-item__ic,
@@ -248,7 +249,7 @@ body {
 
 .course-info-list .course-info-item:hover .course-info-item__text,
 .course-info-list .course-info-item:focus .course-info-item__text {
-  color: #00aa8f;
+  color: #0072ce;
 }
 
 .course-info-list > li {

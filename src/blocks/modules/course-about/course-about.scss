@@ -33,6 +33,10 @@
         color: $link-color;
         font-size: rem(17);
         line-height: 2;
+        &:hover, &:focus {
+            cursor: pointer;
+            color: $link-hover-color;
+        }
     }
     &-about {
         background-color: $grey-bg;
@@ -86,6 +90,10 @@
                     img {
                         width: 100%;
                         height: 100%;
+                    }
+                    &:hover, &:focus {
+                        cursor: pointer;
+                        opacity: .7;
                     }
                 }
                 p, p small {

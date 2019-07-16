@@ -34,7 +34,7 @@
                 }
                 &:hover, &:focus {
                     .course-info-item__ic {
-                        background: $btn-bg;
+                        background: $link-hover-color;
                         transition: $transition;
                     }
                     .course-info-item__text {

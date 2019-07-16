@@ -72,7 +72,7 @@ body {
 .course a:hover,
 .course a:focus {
   cursor: pointer;
-  color: #003c4e;
+  color: #565656;
   transition: all 0.3s ease;
 }
 
@@ -80,7 +80,7 @@ body {
 .course .btn {
   text-decoration: none;
   color: #fff;
-  background: #003c4e;
+  background: #0072ce;
   font-size: 1rem;
   line-height: 1rem;
   border-radius: 5px;
@@ -94,7 +94,7 @@ body {
 .course .btn:hover,
 .course .btn:focus {
   cursor: pointer;
-  background-color: #002D72;
+  background-color: #565656;
   transition: all 0.3s ease;
 }
 
@@ -131,6 +131,12 @@ body {
   color: #0072ce;
   font-size: 1.0625rem;
   line-height: 2;
+}
+
+.course .read-more-trigger:hover,
+.course .read-more-trigger:focus {
+  cursor: pointer;
+  color: #565656;
 }
 
 .course-about {
@@ -193,6 +199,12 @@ body {
   height: 100%;
 }
 
+.course-about-speakers .speaker-img:hover,
+.course-about-speakers .speaker-img:focus {
+  cursor: pointer;
+  opacity: .7;
+}
+
 .course-about-speakers .speaker p,
 .course-about-speakers .speaker p small {
   width: 100%;
@@ -243,7 +255,7 @@ body {
 
 .course-info-list .course-info-item:hover .course-info-item__ic,
 .course-info-list .course-info-item:focus .course-info-item__ic {
-  background: #003c4e;
+  background: #565656;
   transition: all 0.3s ease;
 }
 
